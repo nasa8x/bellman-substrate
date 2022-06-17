@@ -22,7 +22,7 @@ sr-io = { git = "https://github.com/paritytech/substrate", default-features = fa
 pairing = { path = "../pairing" }
 futures-cpupool = { version =  "0.1", optional = true }
 num_cpus = { version =  "1", optional = true }
-crossbeam = { version =  "0.3", optional = true }
+crossbeam = { version =  "0.7", optional = true }
 
 [features]
 default = ["std"]
